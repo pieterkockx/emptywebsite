@@ -1,21 +1,25 @@
 body {
+  background: #fefefe;
+  color: #444;
   display: flex;
   flex-direction: column;
+  font-size: 1.25em;
   justify-content: space-between;
-  margin: 40px auto;
-  max-width: 650px;
   line-height: 1.6;
-  font-size: 1.2em;
-  color: #484848;
-  background: #fefefe;
+  margin: 5vw auto;
+  max-width: 650px;
   padding: 0 1em;
 }
 
 h1,h2,h3 {
-  line-height: 1.2
+  line-height: 1.2;
 }
 
-header,main,footer {
-  text-align: center;
+h1 {
+  font-size: 2em;
+}
+
+.center {
   padding: 0 1em;
+  text-align: center;
 }
